@@ -1,0 +1,20 @@
+{
+  "name": "google-account-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Registro asistido y reanudable de diez perfiles de pruebas de Google",
+  "type": "module",
+  "engines": { "node": ">=22.16.0" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build --silent && node dist/cli/main.js",
+    "doctor": "node scripts/doctor.mjs",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "test:browser": "npm run build && node --test tests/browser/*.test.mjs",
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "check": "npm test && npm run test:browser && npm run check:secrets",
+    "setup": "npm ci && playwright install chromium && npm run doctor"
+  },
+  "dependencies": { "playwright": "1.64.1" },
+  "devDependencies": { "@types/node": "22.20.5", "typescript": "5.9.3" }
+}

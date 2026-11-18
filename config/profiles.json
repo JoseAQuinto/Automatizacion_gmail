@@ -1,0 +1,12 @@
+[
+  {"id":"01","firstName":"Laura","lastName":"Martínez Pérez","suggestedUsername":"lauramartinez.test01"},
+  {"id":"02","firstName":"Daniel","lastName":"López García","suggestedUsername":"daniellopez.test02"},
+  {"id":"03","firstName":"Marta","lastName":"Sánchez Ruiz","suggestedUsername":"martasanchez.test03"},
+  {"id":"04","firstName":"Pablo","lastName":"García Romero","suggestedUsername":"pablogarcia.test04"},
+  {"id":"05","firstName":"Elena","lastName":"Fernández Torres","suggestedUsername":"elenafernandez.test05"},
+  {"id":"06","firstName":"Sergio","lastName":"Navarro López","suggestedUsername":"sergionavarro.test06"},
+  {"id":"07","firstName":"Lucía","lastName":"Gómez Martín","suggestedUsername":"luciagomez.test07"},
+  {"id":"08","firstName":"Javier","lastName":"Ruiz Morales","suggestedUsername":"javierruiz.test08"},
+  {"id":"09","firstName":"Paula","lastName":"Torres Sánchez","suggestedUsername":"paulatorres.test09"},
+  {"id":"10","firstName":"Andrés","lastName":"Fernández Gil","suggestedUsername":"andresfernandez.test10"}
+]
